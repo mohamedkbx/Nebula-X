@@ -1,11 +1,55 @@
+.product {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    padding: 0 20rem;
+    column-gap: 3rem;
+}
+
+
+
 .product__text{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 
     span {
         color: $color-primary;
         text-transform: uppercase ;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    h2 {
+        width: 60%;
+        font-size: 4.5rem;
+        font-weight: 800;
+    }
+
+    p {
+        color: $color-gray-dark;
+        font-size: 1.3rem;
+        font-weight: 500;
     }
     
+}
+
+.product__items{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+       
+}
+
+
+.card { 
+    border: none;
+    width: 50%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.card-title{
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid $color-gray-dark;
 }
