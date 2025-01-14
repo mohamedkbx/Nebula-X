@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import hero from "./assets/hero-1.webp";
 import profileCard from "./assets/Layer 6.webp";
 import backFace from "./assets/Shape 1.webp";
+import { FaSistrix } from "react-icons/fa6";
+
 
 function App() {
   return (
@@ -35,7 +37,7 @@ function HeroSection() {
           </h1>
           <div className="search-input">
           <input type="text" placeholder="Search for a course" />
-          <button className="custom-btn">Search</button>
+          <button className="search-btn"><FaSistrix /></button>
         </div>
         </div>
         
