@@ -40,6 +40,20 @@
   border-radius: 1.5rem;
 }
 
+.hero-img__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+
+  h3 {
+    margin-top: 2rem;
+  }
+}
+
+
+
+
 .backFace{
     position: absolute;
     top: 0;
