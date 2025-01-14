@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 
 import Companies from "./components/Companies";
 import product1 from "./assets/Layer 2.webp";
+import product2 from "./assets/Layer 3.webp";
 import { FaCartShopping } from "react-icons/fa6";
 
 function App() {
@@ -28,10 +29,10 @@ function ProductSection() {
         </p>
       </div>
       <div className="product__items">
-        <div className="product__item-1 ">
+        <div className="product__item-1  ">
           <div className="card">
             <div className="card-img">
-              <img src={product1} alt="" />
+              <img src={product1} alt="Minimal Chair" />
             </div>
             <div className="card-title">
               <h3>Minimal Chair</h3>
@@ -46,7 +47,24 @@ function ProductSection() {
             </div>
           </div>
         </div>
-        <div className="product__item-2 ">sdfsdf</div>
+        <div className="product__item-2 ">
+          <div className="card">
+            <div className="card-img">
+              <img src={product2} alt="Minimal Chair" />
+            </div>
+            <div className="card-title">
+              <h3>Minimal Chair</h3>
+            </div>
+            <div className="card-details d-flex justify-content-between px-2 py-2">
+              <div className="price">
+                <p>$139</p>
+              </div>
+              <button>
+                <FaCartShopping />
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
