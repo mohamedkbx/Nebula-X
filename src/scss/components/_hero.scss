@@ -1,0 +1,48 @@
+.hero__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.hero-img img {
+  max-width: 100%;
+  position: relative;
+  
+}
+
+.hero-img__overlay {
+ 
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 7rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: -16rem;
+  left: 11.5rem;
+  border-radius: 1.5rem;
+}
+
+.backFace{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 130vh;
+    z-index: -1;
+}
