@@ -1,0 +1,11 @@
+.product__text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    span {
+        color: $color-primary;
+        text-transform: uppercase ;
+    }
+    
+}
