@@ -5,11 +5,9 @@ import profileCard from "./assets/Layer 6.webp";
 import backFace from "./assets/Shape 1.webp";
 import { FaSistrix } from "react-icons/fa6";
 
-
 function App() {
   return (
     <div>
-     
       <Header />
       <HeroSection />
     </div>
@@ -19,7 +17,7 @@ function App() {
 function HeroSection() {
   return (
     <section className="hero section-padding">
-       <img src={backFace} alt="back"  className="backFace"/>
+      <img src={backFace} alt="back" className="backFace" />
       <div className="hero__content">
         <div className="hero-img">
           <img src={hero} alt="hero-img" />
@@ -36,11 +34,12 @@ function HeroSection() {
             We Help You Build & Grow an Online Business
           </h1>
           <div className="search-input">
-          <input type="text" placeholder="Search for a course" />
-          <button className="search-btn"><FaSistrix /></button>
+            <input type="text" placeholder="Tell us what you need to build..." />
+            <button className="search-btn">
+              <FaSistrix />
+            </button>
+          </div>
         </div>
-        </div>
-        
       </div>
     </section>
   );
