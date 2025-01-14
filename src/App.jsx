@@ -5,6 +5,7 @@ import Companies from "./components/Companies";
 import product1 from "./assets/Layer 2.webp";
 import product2 from "./assets/Layer 3.webp";
 import { FaCartShopping } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa6";
 
 function App() {
   return (
@@ -21,12 +22,13 @@ function ProductSection() {
   return (
     <section className="product section-padding ">
       <div className="product__text ">
-        <span>WE HELP YOU</span>
+        <span className="product__head">WE HELP YOU</span>
         <h2 className="secondary-heading">Sell Stunnig Products</h2>
         <p className="paragraph">
           We&apos;ll guide you through our unique 5-step brand-building
           framework
         </p>
+        <button className="custom-button"> <span> MORE DETAIL</span>  <span className="btn-icon"><FaAngleRight /></span></button>
       </div>
       <div className="product__items">
         <div className="product__item-1 ">

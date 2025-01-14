@@ -9,8 +9,9 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  align-items: start;
 
-  span {
+  .product__head {
     color: $color-primary;
     text-transform: uppercase;
     font-weight: 500;
@@ -35,23 +36,23 @@
   column-gap: 6rem;
 }
 .product__item-1 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: end;
-    position: relative; /* Set the parent as a positioning context */
-  
-    &::after {
-      content: "";
-      width: 25rem;
-      height: 25rem;
-      background-color:$color-primary;
-      position: absolute;
-      top: -13rem;
-      right: -1.2rem;
-      border-radius: 50%; /* Makes it a circle */
-      z-index: -1; /* Behind the parent */
-    }
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  position: relative; /* Set the parent as a positioning context */
+
+  &::after {
+    content: "";
+    width: 25rem;
+    height: 25rem;
+    background-color: $color-primary;
+    position: absolute;
+    top: -13rem;
+    right: -1.2rem;
+    border-radius: 50%; /* Makes it a circle */
+    z-index: -1; /* Behind the parent */
   }
+}
 
 .product__item-2 {
   display: flex;
@@ -63,7 +64,7 @@
     content: "";
     width: 25rem;
     height: 25rem;
-    background-color:$color-secondary;
+    background-color: $color-secondary;
     position: absolute;
     top: 3rem;
     left: -1.3rem;
@@ -102,4 +103,36 @@
 
 .card:hover .card-img img {
   transform: scale(1.2);
+}
+
+.custom-button {
+
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  position: absolute;
+  right: .5rem;
 }
