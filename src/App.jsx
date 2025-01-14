@@ -29,7 +29,7 @@ function ProductSection() {
         </p>
       </div>
       <div className="product__items">
-        <div className="product__item-1  ">
+        <div className="product__item-1 ">
           <div className="card">
             <div className="card-img">
               <img src={product1} alt="Minimal Chair" />
@@ -47,9 +47,9 @@ function ProductSection() {
             </div>
           </div>
         </div>
-        <div className="product__item-2 ">
+        <div className="product__item-2  ">
           <div className="card">
-            <div className="card-img">
+            <div className="card-img text-center">
               <img src={product2} alt="Minimal Chair" />
             </div>
             <div className="card-title">
