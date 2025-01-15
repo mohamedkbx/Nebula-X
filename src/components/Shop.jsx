@@ -18,8 +18,7 @@ export default function Shop() {
             <div className="service__card-text text-center w-100">
               <h3 className="shop__card-heading fw-bold pb-4">Fashion Store</h3>
               <p className="shop__card-paragraph">
-                Achieve the perfect balance of ambient, task, and accent lighting
-                for a functional atmosphere
+                Shp ladies fashion at Misshuided USa With hundreds of new styles hitting our shelves every week
               </p>
             </div>
           </div>
@@ -34,8 +33,7 @@ export default function Shop() {
             <div className="service__card-text text-center w-100">
               <h3 className="shop__card-heading fw-bold pb-4">Home Furniture</h3>
               <p className="shop__card-paragraph">
-                From concept to completion, we oversee every detail to bring your
-                vision to life efficiently
+               Provides superior quality furniture and mattresses at a price that customers can easily afford
               </p>
             </div>
           </div>
@@ -52,8 +50,7 @@ export default function Shop() {
                 Super Gadget Store
               </h3>
               <p className="shop__card-paragraph">
-                Celebrate the changing seasons with our seasonal outdoor decor
-                services
+                Specialize in selling unique gifts, cool gadgets,outdoor gear and fab toys.
               </p>
             </div>
           </div>
