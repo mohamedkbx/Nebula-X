@@ -36,16 +36,15 @@ export default function Header() {
           </div>
 
           <div className="offcanvas-body d-flex flex-column flex-lg-row p-3 p-lg-0">
-            <ul className="navbar-nav gap-5 justify-content-center align-items-center flex-grow-1 pe-3">
+            <ul className="navbar-nav gap-5 justify-content-center justify-content-lg-end align-items-center flex-grow-1 pe-3">
               <li className="nav-item mx-2">
-                <a className="nav-link active" aria-current="page" href="#home">
-                  Home
+                <a className="nav-link active text-decoration-underline" aria-current="page" href="#">
+                  Get Started Now
                 </a>
               </li>
             </ul>
-
             <div className="d-flex justify-content-center align-items-center">
-              <button type="button" className="custom-btn mx-2 text-center">
+              <button className="custom-btn text-center py-1">
                 Login
               </button>
             </div>
@@ -55,26 +54,3 @@ export default function Header() {
     </nav>
   );
 }
-
-// function Logo() {
-//   return <p>Nebula-X</p>;
-// }
-
-// function Navbar() {
-//   return (
-//     <nav classNameName="nav">
-//       <ul classNameName="nav__links">
-//         <li>
-//           <a href="#" classNameName="text-decoration-underline">
-//             Get Started Now
-//           </a>
-//         </li>
-//         <li>
-//           <a href="#" classNameName="custom-btn">
-//             Login
-//           </a>
-//         </li>
-//       </ul>
-//     </nav>
-//   );
-// }
