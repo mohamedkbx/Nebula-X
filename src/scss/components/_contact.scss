@@ -1,4 +1,14 @@
 .contact {
+    position: relative;
 
-    
+    .contact__overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        z-index: -2;
+    }
 }
+
