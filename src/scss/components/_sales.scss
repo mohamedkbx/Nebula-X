@@ -1,38 +1,87 @@
 .sales {
-    padding: 10rem 20rem;
+  padding: 10rem 20rem;
 }
-.sales__card{
-    padding: 3rem;
-    border-radius: 8px;
-    display: inline-flex; 
-    align-items: center;
-    background: white; 
-    border-radius: 8px;
-    box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.1); 
-    width: fit-content;
+.sales__card {
+  padding: 3rem;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.1);
+  width: fit-content;
 }
-.sales__analytics{
+.sales__analytics {
+  display: flex;
+  gap: 7rem;
+}
+
+.card-1 {
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 25rem;
+    height: 25rem;
+    background-color: #4ab5d7;
+    position: absolute;
+    top: -7rem;
+    left: -10rem;
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+.card-2 {
+  align-self: center;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 25rem;
+    height: 25rem;
+    background-color: #52ca83;
+    position: absolute;
+    top: -1rem;
+    right: -8rem;
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+.sales__card-img {
+  img {
+    width: 10rem;
+    max-width: 100%;
+  }
+}
+.sales__card-text {
+  .net {
+    font-size: 2rem;
+    font-weight: 800;
     display: flex;
-    gap: 7rem;
-}
+    align-items: center;
+    gap: 1rem;
 
-
-
-.card-2{
-    align-self: center;
-}
-
-.sales__card-img{
-
-    img{
-        width: 10rem;
-        max-width: 100%;
+    .net-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: white;
+      background: $color-tertiary;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
     }
-}
-.sales__card-text{
+  }
+  .renew {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
 
-    .net {
-        font-size: 2rem;
-        font-weight: 800;
+    span {
+      color: #12f578;
     }
+  }
 }

@@ -7,6 +7,7 @@ import Shop from "./components/Shop";
 import { FaAngleRight } from "react-icons/fa6";
 import profile1 from "./assets/profile-pic-1.png";
 import profile2 from "./assets/profile-pic-2.png";
+import { FaChevronUp } from "react-icons/fa6";
 
 function App() {
   return (
@@ -27,19 +28,30 @@ function Sales() {
       <div className="row justify-content-between align-items-center ">
         <div className="sales__analytics col-12 col-md-7 d-flex flex-column ">
           <div className="sales__card card-1 d-flex gap-5 align-items-center ">
+            
             <div className="sales__card-img ">
               <img src={profile1} alt="prfile picture" className="img-fluid" />
             </div>
-            <div className="sales__card-text d-flex flex-column gap-3 justify-content-center align-items-center">
-              <h3 className="net">$ 7,654</h3>
+            <div className="sales__card-text d-flex flex-column gap-2 justify-content-center align-items-start">
+              <h3 className="net">
+                $ 7,654
+                <span className="net-icon">
+                  <FaChevronUp />
+                </span>
+              </h3>
               <p className="renew">
                 TOTAL REVNENUE<span>+323</span>
               </p>
             </div>
           </div>
           <div className="sales__card card-2 d-flex gap-5 align-items-center ">
-            <div className="sales__card-text d-flex flex-column gap-3 justify-content-center align-items-center">
-              <h3 className="net">$ 9,978</h3>
+            <div className="sales__card-text d-flex flex-column gap-2 justify-content-center align-items-center">
+              <h3 className="net">
+                $ 9,978
+                <span className="net-icon">
+                  <FaChevronUp />
+                </span>
+              </h3>
               <p className="renew">
                 TOTAL REVNENUE<span>+365</span>
               </p>
