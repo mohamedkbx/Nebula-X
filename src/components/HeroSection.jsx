@@ -6,7 +6,7 @@ import { FaSistrix } from "react-icons/fa6";
 export default function HeroSection() {
   return (
     <section className="hero ">
-      {/* <img src={backFace} alt="back" className="backFace" /> */}
+      <img src={backFace} alt="back" className="backFace image-fluid" />
       <div className="hero__content row section-padding justify-content-around">
         <div className="hero-img col-12 col-lg-6">
           <img src={hero} alt="hero-img" className="image-fluid " />

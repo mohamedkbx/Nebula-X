@@ -1,4 +1,6 @@
-
+.hero{
+  position: relative;
+}
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -62,14 +64,13 @@
   }
 }
 
-
-
-
 .backFace{
+    width: 100%;
+    max-width: 45%;
     position: absolute;
-    top: 0;
+    top: -10rem;
     left: 0;
-    height: 130vh;
+    height: 110vh;
     z-index: -1;
 }
 
