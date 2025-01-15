@@ -14,6 +14,11 @@
       @content;
     }
   }
+  @if $breakpoint == labtop {
+    @media only screen and (max-width: 95em) {
+      @content;
+    }
+  }
   @if $breakpoint == big-disktop {
     @media only screen and (min-width: 112.5em) {
       @content;

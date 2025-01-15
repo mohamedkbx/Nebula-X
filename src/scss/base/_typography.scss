@@ -3,6 +3,23 @@
     font-weight: 700;
     line-height: 1.6;
     padding: 0 4rem;
+
+    @include respond(labtop) {
+        font-size: 4rem;
+        padding: 0 2rem;
+    }
+    @include respond(tab-land) {
+       text-align: center;
+       margin-top: 5rem;
+        padding: 0 1rem;
+    }
+    @include respond(phone) {
+        font-size: 2.8rem;
+       text-align: center;
+       margin-top: 5rem;
+        padding: 0 ;
+    }
+
 }
 
 .secondary-heading{
