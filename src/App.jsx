@@ -23,14 +23,15 @@ function App() {
 function Sales() {
   return <section className="sales section-padding">
     <div className="row justify-content-between ">
-      <div className="sales__analytics col-12 col-md-7">fsdfsdfs</div>
+      <div className="sales__analytics col-12 col-md-7">
+        <div className="sales__card"></div>
+      </div>
       <div className="sales__text col-4">
   <div className="product__text ">
           <span className="product__head">WE HELP YOU</span>
-          <h2 className="secondary-heading">Sell Stunnig Products</h2>
+          <h2 className="secondary-heading">Increase our Customers Sales</h2>
           <p className="paragraph">
-            We&apos;ll guide you through our unique 5-step brand-building
-            framework
+          Our customers are seeing big results within the first three months
           </p>
           <button className="custom-button">
             {" "}
