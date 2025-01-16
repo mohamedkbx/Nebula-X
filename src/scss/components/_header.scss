@@ -1,9 +1,14 @@
+
 .navbar {
   padding: 3rem 6rem;
   
   @include respond(labtop){
     padding: 1rem;
   }
+}
+
+.logo {
+  filter: blur(0.4rem);
 }
 
 .nav__links {

@@ -3,7 +3,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg bg-transparent global-padding">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <p>Nebula-X</p>
+          <p className="fs-2 fw-bold logo">Nebula-X</p>
         </a>
 
         <button
