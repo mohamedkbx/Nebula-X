@@ -27,7 +27,7 @@ export default function ProductSection() {
             <div className="product__item-1 col-6 w-100 mx-1">
               <div className="card">
                 <div className="card-img">
-                  <img src={product1} alt="Minimal Chair" className="image-fluid"/>
+                  <img src={product1} alt="Minimal Chair" className="img-fluid"/>
                 </div>
                 <div className="card-title">
                   <h3>Minimal Chair</h3>
@@ -45,7 +45,7 @@ export default function ProductSection() {
             <div className="product__item-2 col-6 w-100 ">
               <div className="card">
                 <div className="card-img text-center">
-                  <img src={product2} alt="Minimal Chair" className="image-fluid" />
+                  <img src={product2} alt="Minimal Chair" className="img-fluid" />
                 </div>
                 <div className="card-title">
                   <h3>Minimal Chair</h3>

@@ -12,7 +12,7 @@ export default function ContactUs() {
         <img
           src={contactOverlay}
           alt="overlay"
-          className="image-fluid contact__overlay"
+          className="img-fluid contact__overlay"
         />
   
         <div className="contact-content section-padding row d-flex justify-content-between">
@@ -25,7 +25,7 @@ export default function ContactUs() {
                   <img
                     src={emailLogo}
                     alt="Email"
-                    className="image-fluid form-icon"
+                    className="img-fluid form-icon"
                   />
                   <input
                     type="email"
@@ -38,7 +38,7 @@ export default function ContactUs() {
                   <img
                     src={chatIcon}
                     alt="messaage"
-                    className="image-fluid align-self-start form-icon"
+                    className="img-fluid align-self-start form-icon"
                   />
                   <textarea
                     className="form-control "
@@ -54,7 +54,7 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="contact__img col-12 col-md-4 ">
-            <img src={contactImg} alt="contact img" className="image-fluid " />
+            <img src={contactImg} alt="contact img" className="img-fluid " />
           </div>
         </div>
       </section>

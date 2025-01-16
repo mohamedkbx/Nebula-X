@@ -34,7 +34,7 @@ export default function Sales() {
           </div>
           <div className="sales__card card-2 d-flex gap-5 align-items-center ">
           <div className="overlay-2">
-              <img src={overlay2} alt="chart overlay" />
+              <img src={overlay2} alt="chart overlay" className="img-fluid" />
             </div>
             <div className="sales__card-text d-flex flex-column gap-2 justify-content-center align-items-center">
               <h3 className="net">
@@ -54,7 +54,7 @@ export default function Sales() {
         </div>
         <div className="sales__text col-12 col-lg-4  ">
           <div className="product__text ">
-            <span className="product__head ">WE HELP YOU</span>
+            <span className="product__head">WE HELP YOU</span>
             <h2 className="secondary-heading ">Increase our Customers Sales</h2>
             <p className="paragraph">
               Our customers are seeing big results within the first three months

@@ -37,7 +37,14 @@
     z-index: -1;
     @include respond(tab-land){
       top: -3rem;
-    left: 0rem;
+    left: -1rem;
+    }
+    @include respond(tab-port){
+      width: 15rem;
+      height: 15rem;
+      top: -5rem;
+      left:16rem
+   
     }
   }
 }
@@ -78,6 +85,12 @@
     right: -8rem;
     border-radius: 50%;
     z-index: -1;
+    @include respond(tab-port){
+      width: 15rem;
+      height: 15rem;
+      top: 7rem;
+     right: -3rem
+    }
   }
 }
 
@@ -119,6 +132,6 @@
 }
 .sales__text{
   @include respond(tab-land){
-    margin-top: 8rem;
+    margin-top: 12rem;
   }
 }
