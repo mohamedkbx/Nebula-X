@@ -15,8 +15,8 @@ function App() {
       <HeroSection />
       <Companies />
       <ProductSection />
-      {/* <Shop />
-      <Sales />
+      <Shop />
+      {/* <Sales />
       <ContactUs /> */}
     </div>
   );

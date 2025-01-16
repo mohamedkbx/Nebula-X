@@ -6,7 +6,7 @@ import { FaAngleRight } from "react-icons/fa6";
 export default function ProductSection() {
   return (
     <section className="product section-padding container-fluid">
-      <div className="row justify-content-between align-items-center ">
+      <div className="row justify-content-between align-items-center  ">
         <div className="product__text col-12 col-lg-4 ">
           <span className="product__head">WE HELP YOU</span>
           <h2 className="secondary-heading ">Sell Stunnig Products</h2>

@@ -15,9 +15,9 @@ export default function Shop() {
                 className="img-fluid service__image"
               />
             </div>
-            <div className="service__card-text text-center w-100">
-              <h3 className="shop__card-heading fw-bold pb-4">Fashion Store</h3>
-              <p className="shop__card-paragraph">
+            <div className="service__card-text text-start w-100">
+              <h3 className="shop__card-heading fw-bold pb-4 fs-1 ">Fashion Store</h3>
+              <p className="shop__card-paragraph fs-4">
                 Shp ladies fashion at Misshuided USa With hundreds of new styles hitting our shelves every week
               </p>
             </div>
@@ -30,9 +30,9 @@ export default function Shop() {
                 className="img-fluid service__image"
               />
             </div>
-            <div className="service__card-text text-center w-100">
-              <h3 className="shop__card-heading fw-bold pb-4">Home Furniture</h3>
-              <p className="shop__card-paragraph">
+            <div className="service__card-text text-start w-100">
+              <h3 className="shop__card-heading fw-bold fs-1 pb-4">Home Furniture</h3>
+              <p className="shop__card-paragraph fs-4">
                Provides superior quality furniture and mattresses at a price that customers can easily afford
               </p>
             </div>
@@ -45,11 +45,11 @@ export default function Shop() {
                 className="img-fluid service__image"
               />
             </div>
-            <div className="service__card-text text-center w-100">
-              <h3 className="shop__card-heading fw-bold pb-4">
+            <div className="service__card-text text-startf  w-100">
+              <h3 className="shop__card-heading fw-bold fs-1 pb-4">
                 Super Gadget Store
               </h3>
-              <p className="shop__card-paragraph">
+              <p className="shop__card-paragraph fs-4 ">
                 Specialize in selling unique gifts, cool gadgets,outdoor gear and fab toys.
               </p>
             </div>
