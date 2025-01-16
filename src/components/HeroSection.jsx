@@ -9,9 +9,6 @@ export default function HeroSection() {
   return (
     <section className="hero ">
       <img src={backFace} alt="back" className="backFace image-fluid" />
-       <div className="front-face">
-        <img src={frontFace} alt="overlay " />
-       </div>
       <div className="hero__content row section-padding justify-content-around">
         <div className="hero-img col-12 col-lg-6">
           <img src={hero} alt="hero-img" className="image-fluid " />
@@ -23,7 +20,7 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="hero-text col-12 col-md-6">
+        <div className="hero-text col-12 col-md-7">
           <h1 className="primary-header">
             We Help You Build & Grow an Online Business
           </h1>

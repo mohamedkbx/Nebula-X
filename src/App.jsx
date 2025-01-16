@@ -13,8 +13,8 @@ function App() {
     <div>
       <Header />
       <HeroSection />
-      {/* <Companies />
-      <ProductSection />
+      <Companies />
+      {/* <ProductSection />
       <Shop />
       <Sales />
       <ContactUs /> */}
