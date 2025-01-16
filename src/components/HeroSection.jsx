@@ -20,7 +20,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="hero-text col-12 col-md-7">
-          <h1 className="primary-header">
+          <h1 className="primary-header ">
             We Help You Build & Grow an Online Business
           </h1>
           <div className="search-input">

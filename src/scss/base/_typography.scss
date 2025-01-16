@@ -3,10 +3,12 @@
     font-weight: 700;
     line-height: 1.6;
     padding: 0 4rem;
+    width: 90%;
 
     @include respond(labtop) {
         font-size: 4rem;
         padding: 0 2rem;
+        width: 100%;
     }
     @include respond(tab-land) {
        text-align: center;
