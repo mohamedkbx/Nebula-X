@@ -9,18 +9,6 @@
 
 html {
   font-size: 62.5%;
-
-  //   @include respond(tab-land) {
-  //     font-size: 56.25%; // 1rem =9px 9/16
-  //   }
-
-  //   @include respond(tab-port) {
-  //     font-size: 50%; // 1rem =10px 1rem=8px 8/16
-  //   }
-
-  //   @include respond(big-disktop) {
-  //     font-size: 75%; //1rem = 12 12/16
-  //   }
 }
 
 body {
@@ -30,10 +18,6 @@ body {
   font-family: "Montserrat", serif;
   font-size: 1.6rem;
   overflow-x: hidden;
-
-  //   @include respond(tab-port) {
-  //     padding: 0;
-  //   }
 }
 
 a {
@@ -57,9 +41,9 @@ button {
   cursor: pointer;
 }
 
-/* Global Reset */
-// ::selection {
-//   // it will change the color of the selected text
-//   background-color: $color-primary;
-//   color: $color-White;
-// }
+
+::selection {
+  // it will change the color of the selected text
+  background-color: $color-primary;
+  color: black;
+}

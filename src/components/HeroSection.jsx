@@ -3,6 +3,8 @@ import profileCard from "../assets/Layer 6.webp";
 import backFace from "../assets/Shape 1.webp";
 import { FaSistrix } from "react-icons/fa6";
 
+import corner from "../assets/heroCorner.png"
+
 
 export default function HeroSection() {
   return (
@@ -32,6 +34,9 @@ export default function HeroSection() {
               <FaSistrix />
             </button>
           </div>
+        </div>
+        <div className="corner">
+        <img src={corner} alt="overlay" className="img-fluid "  />
         </div>
       </div>
     </section>

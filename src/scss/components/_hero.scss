@@ -6,13 +6,31 @@
   position: relative;
 }
 
+.corner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  transform: scale(.9);
+  z-index: -2;
+  pointer-events: none;
+
+
+  @include respond(labtop){
+    display: none;
+  }
+}
+
 
 .hero-text {
+  margin-top: 3.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  gap: 10rem;
+  gap: 7rem;
 
   @include respond(tab-port) {
     gap: 5rem;
@@ -27,6 +45,9 @@
   align-items: center;
   position: relative;
   width: max-content;
+  pointer-events: none;
+
+
 }
 
 .hero-img img {
@@ -49,6 +70,8 @@
   bottom: 0rem;
   left: 0rem;
   border-radius: 1.5rem;
+  pointer-events: none;
+
 
   @include respond(mini-phones) {
           padding: 2rem 4rem;
@@ -79,6 +102,8 @@
     left: -1.5rem;
     height: 110vh;
     z-index: -1;
+    pointer-events: none;
+
     
 
     @include respond(labtop) {
@@ -113,7 +138,7 @@
     background-color: white;
     align-items: center;
     box-shadow: 0rem 0rem 4rem rgba(0, 0, 0, 0.2);
-    width: 85%;
+    width: 70%;
    
 }
 .search-input input {
