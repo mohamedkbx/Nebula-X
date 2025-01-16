@@ -59,7 +59,6 @@
 }
 
 .hero-img__overlay {
-  
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -72,19 +71,18 @@
   left: 0rem;
   border-radius: 1.5rem;
  
- 
-
 
   @include respond(mini-phones) {
-          padding: 2rem 4rem;
-        bottom: -5rem;
-        scale: .6;
-        left: -4rem;
-  
-    
+    padding: 5rem 8rem;
+    bottom: -4rem;
+    scale: 0.6;
+    left: -5rem;
   }
-
+ 
 }
+
+  
+
 
 .hero-img__text {
   display: flex;
