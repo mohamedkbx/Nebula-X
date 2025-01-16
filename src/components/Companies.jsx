@@ -8,7 +8,7 @@ export default function Companies() {
   return (
     <section className="compaines section-padding row d-flex flex-column flex-lg-row  justify-content-between align-items-lg-center">
       <p className="paragraph fs-3 col-12 col-lg-4 text-center text-lg-start">Compaines we have build</p>
-      <ul className="compaines__list d-flex  align-items-center justify-content-center col-12 col-lg-8 text-center flex-wrap ">
+      <ul className="compaines__list d-flex  align-items-center justify-content-center justify-content-lg-end   col-12 col-lg-8 text-center flex-wrap "> 
         <li className="company__list-item mt-3 ">
           <img src={media} alt="company" />
         </li>

@@ -14,8 +14,8 @@ function App() {
       <Header />
       <HeroSection />
       <Companies />
-      {/* <ProductSection />
-      <Shop />
+      <ProductSection />
+      {/* <Shop />
       <Sales />
       <ContactUs /> */}
     </div>

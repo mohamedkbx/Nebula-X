@@ -29,6 +29,7 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", serif;
   font-size: 1.6rem;
+  overflow-x: hidden;
 
   //   @include respond(tab-port) {
   //     padding: 0;

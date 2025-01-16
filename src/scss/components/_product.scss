@@ -1,8 +1,12 @@
 .product {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  padding: 10rem 20rem;
-  column-gap: 3rem;
+  padding: 3rem 10rem;
+  margin-top: 5rem;
+  height: 100%;
+  overflow: hidden;
+  @include respond(tab-land){
+    margin-top: 2rem;
+    padding: 5rem 5rem;
+  }
 }
 
 .product__text {
@@ -11,35 +15,68 @@
   gap: 3rem;
   align-items: start;
 
+  @include respond(tab-land){
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+
   .product__head {
     color: $color-primary;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 2.5rem;
+     
   }
   h2 {
-    width: 60%;
+    width: 100%;
     font-size: 4.5rem;
     font-weight: 800;
+    line-height: 1.2;
+
   }
 
   p {
     color: $color-gray-dark;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 500;
+    margin-bottom: 2.5rem;
   }
+
 }
 
 .product__items {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 6rem;
+  grid-template-columns: repeat(2, 1fr); 
+  column-gap: 8rem;
+  height: 100%;
+
+  @include respond(tab-port){
+    grid-template-columns: 1fr; 
+   
+  }
+
+
 }
 .product__item-1 {
   display: flex;
   align-items: flex-start;
   justify-content: end;
-  position: relative; /* Set the parent as a positioning context */
+  position: relative; 
+
+  @include respond(tab-land){
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  @include respond(tab-port){
+    margin-top: 10rem;
+  }
+ 
+  
+
 
   &::after {
     content: "";
@@ -49,16 +86,31 @@
     position: absolute;
     top: -13rem;
     right: -1.2rem;
-    border-radius: 50%; /* Makes it a circle */
-    z-index: -1; /* Behind the parent */
+    border-radius: 50%; 
+    z-index: -1; 
+    @include respond(tab-land){
+      width: 15rem;
+      height: 15rem;  
+      }
   }
 }
 
 .product__item-2 {
+  margin-top: 20rem;
   display: flex;
   align-items: flex-end;
   justify-content: start;
   position: relative;
+  @include respond(tab-land){
+  margin-top: 30rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  @include respond(tab-port){
+    margin-top: 15rem;   
+  }
 
   &::after {
     content: "";
@@ -68,8 +120,12 @@
     position: absolute;
     top: 3rem;
     left: -1.3rem;
-    border-radius: 50%; /* Makes it a circle */
-    z-index: -1; /* Behind the parent */
+    border-radius: 50%; 
+    z-index: -1; 
+    @include respond(tab-land){
+      width: 15rem;
+      height: 15rem;  
+      }
   }
 }
 
@@ -81,6 +137,11 @@
   border-radius: 1.5rem;
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
   position: relative;
+
+  @include respond(tab-land){
+    width: 80%;
+  }
+
 }
 
 .card-title {
@@ -89,8 +150,13 @@
   border-bottom: 0.3px solid $color-gray-dark;
 }
 
+.price {
+  color: #f4c56a;
+}
+
 .card .card-img {
   width: 100%;
+  max-width: 100%;
 }
 .card .card-img img {
   max-width: 100%;
