@@ -17,7 +17,7 @@ function App() {
       <ProductSection />
       <Shop />
       <Sales />
-      {/* <ContactUs /> */}
+      <ContactUs />
     </div>
   );
 }

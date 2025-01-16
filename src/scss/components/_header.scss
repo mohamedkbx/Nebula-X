@@ -1,6 +1,9 @@
 .navbar {
   padding: 3rem 6rem;
-  position: relative;
+  
+  @include respond(labtop){
+    padding: 1rem;
+  }
 }
 
 .nav__links {

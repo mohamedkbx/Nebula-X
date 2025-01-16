@@ -16,12 +16,12 @@ export default function ContactUs() {
         />
   
         <div className="contact-content section-padding row d-flex justify-content-between">
-          <div className="contact__form col-12 col-md-4 mx-auto  ">
+          <div className="contact__form col-12 col-lg-4 mx-lg-auto">
             {" "}
-            <div className="form-card w-100">
+            <div className="form-card w-100 ">
               <h2 className="form-title text-center py-5">Write Us</h2>
               <form className="form d-flex flex-column align-items-center justify-content-center ">
-                <div className="form-group email-input  mx-auto d-flex">
+                <div className="form-group email-input mx-auto d-flex">
                   <img
                     src={emailLogo}
                     alt="Email"
@@ -53,8 +53,8 @@ export default function ContactUs() {
               </form>
             </div>
           </div>
-          <div className="contact__img col-12 col-md-4 ">
-            <img src={contactImg} alt="contact img" className="img-fluid " />
+          <div className="contact__img col-12 col-lg-4 ">
+            <img src={contactImg} alt="contact img" className="img-fluid d-none d-lg-block" />
           </div>
         </div>
       </section>

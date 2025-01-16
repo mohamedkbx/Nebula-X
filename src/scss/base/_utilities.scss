@@ -6,4 +6,7 @@
 
     .section-padding{
         padding: 8rem 6rem;
+        @include respond(labtop){
+            padding: 6rem 2rem;
+        }
     }
