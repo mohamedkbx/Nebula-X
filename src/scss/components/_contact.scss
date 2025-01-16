@@ -68,6 +68,15 @@
   color: white;
   text-transform: uppercase;
   margin-top: 2rem;
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
   @include respond(phone){
     font-size: .9rem;
   }

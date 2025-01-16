@@ -4,6 +4,8 @@
     line-height: 1.6;
     padding: 0 4rem;
     width: 90%;
+    animation: moveTopDown 1s ease-out 0.50s; ;
+    animation-fill-mode: backwards;
 
     @include respond(labtop) {
         font-size: 4rem;
