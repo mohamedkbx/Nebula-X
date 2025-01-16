@@ -1,5 +1,5 @@
-import profile1 from "../assets/profile-pic-1.png";
-import profile2 from "../assets/profile-pic-2.png";
+import profile1 from "../assets/profile-pic-1.webp";
+import profile2 from "../assets/profile-pic-2.webp";
 import overlay2 from "../assets/overlay1.webp";
 import overlay1 from "../assets/overlay2.webp";
 import { FaChevronUp } from "react-icons/fa6";
@@ -15,10 +15,10 @@ export default function Sales() {
         <div className="sales__analytics col-12 col-lg-7 d-flex flex-column ">
           <div className="sales__card card-1 d-flex gap-5 align-items-center ">
             <div className="overlay-1">
-              <img src={overlay1} alt="chart overlay" />
+              <img src={overlay1} alt="chart overlay"  loading="lazy"  />
             </div>
             <div className="sales__card-img ">
-              <img src={profile1} alt="prfile picture" className="img-fluid" />
+              <img src={profile1} alt="prfile picture" className="img-fluid"  loading="lazy"  />
             </div>
             <div className="sales__card-text d-flex flex-column gap-2 justify-content-center align-items-start">
               <h3 className="net">
@@ -34,7 +34,7 @@ export default function Sales() {
           </div>
           <div className="sales__card card-2 d-flex gap-5 align-items-center ">
           <div className="overlay-2">
-              <img src={overlay2} alt="chart overlay" className="img-fluid" />
+              <img src={overlay2} alt="chart overlay" className="img-fluid"  loading="lazy"  />
             </div>
             <div className="sales__card-text d-flex flex-column gap-2 justify-content-center align-items-center">
               <h3 className="net">
@@ -48,7 +48,7 @@ export default function Sales() {
               </p>
             </div>
             <div className="sales__card-img ">
-              <img src={profile2} alt="prfile picture" className="img-fluid" />
+              <img src={profile2} alt="prfile picture" className="img-fluid"  loading="lazy"  />
             </div>
           </div>
         </div>

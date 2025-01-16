@@ -2,7 +2,6 @@ import hero from "../assets/hero-1.webp";
 import profileCard from "../assets/Layer 6.webp";
 import backFace from "../assets/Shape 1.webp";
 import { FaSistrix } from "react-icons/fa6";
-
 import corner from "../assets/heroCorner.png"
 
 

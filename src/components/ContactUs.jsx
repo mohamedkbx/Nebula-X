@@ -1,6 +1,6 @@
 
-import contactOverlay from "../assets/Shape 2.png";
-import contactImg from "../assets/contactImg.png";
+import contactOverlay from "../assets/Shape 2.webp";
+import contactImg from "../assets/contactImg.webp";
 
 import emailLogo from "../assets/icons/email.svg";
 import chatIcon from "../assets/icons/chat-line-svgrepo-com.svg";
@@ -54,7 +54,7 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="contact__img col-12 col-lg-4 ">
-            <img src={contactImg} alt="contact img" className="img-fluid d-none d-lg-block" />
+            <img src={contactImg} alt="contact img" className="img-fluid d-none d-lg-block"   loading="lazy" />
           </div>
         </div>
       </section>

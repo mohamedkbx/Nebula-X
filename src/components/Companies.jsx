@@ -1,6 +1,6 @@
-import iconCompany from "../assets/icom-logo.png";
-import smartLogo from "../assets/Smart-Logo.png";
-import westenOffice from "../assets/westin-guest-office-logo.png";
+import iconCompany from "../assets/icom-logo.webp";
+import smartLogo from "../assets/Smart-Logo.webp";
+import westenOffice from "../assets/westin-guest-office-logo.webp";
 import usvSystem from "../assets/computerSystem.svg";
 import media from "../assets/Media_24.png";
 

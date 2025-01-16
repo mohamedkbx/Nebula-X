@@ -13,6 +13,7 @@ export default function Shop() {
                 src={fashion}
                 alt="Super Gadget Store"
                 className="img-fluid service__image"
+                loading="lazy" 
               />
             </div>
             <div className="service__card-text text-start w-100">
@@ -28,6 +29,7 @@ export default function Shop() {
                 src={furniture}
                 alt="Super Gadget Store"
                 className="img-fluid service__image"
+                loading="lazy" 
               />
             </div>
             <div className="service__card-text text-start w-100">
@@ -43,6 +45,7 @@ export default function Shop() {
                 src={gadget}
                 alt="Super Gadget Store"
                 className="img-fluid service__image"
+                loading="lazy" 
               />
             </div>
             <div className="service__card-text text-startf  w-100">

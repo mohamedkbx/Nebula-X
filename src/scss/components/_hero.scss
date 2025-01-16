@@ -45,7 +45,8 @@
   align-items: center;
   position: relative;
   width: max-content;
-  pointer-events: none;
+  
+  
 
 
 }
@@ -70,7 +71,8 @@
   bottom: 0rem;
   left: 0rem;
   border-radius: 1.5rem;
-  pointer-events: none;
+ 
+ 
 
 
   @include respond(mini-phones) {
