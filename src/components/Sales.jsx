@@ -12,7 +12,7 @@ export default function Sales() {
   return (
     <section className="sales section-padding">
       <div className="row justify-content-between align-items-center ">
-        <div className="sales__analytics col-12 col-md-7 d-flex flex-column ">
+        <div className="sales__analytics col-12 col-lg-7 d-flex flex-column ">
           <div className="sales__card card-1 d-flex gap-5 align-items-center ">
             <div className="overlay-1">
               <img src={overlay1} alt="chart overlay" />
@@ -52,10 +52,10 @@ export default function Sales() {
             </div>
           </div>
         </div>
-        <div className="sales__text col-4">
+        <div className="sales__text col-12 col-lg-4  ">
           <div className="product__text ">
-            <span className="product__head">WE HELP YOU</span>
-            <h2 className="secondary-heading">Increase our Customers Sales</h2>
+            <span className="product__head ">WE HELP YOU</span>
+            <h2 className="secondary-heading ">Increase our Customers Sales</h2>
             <p className="paragraph">
               Our customers are seeing big results within the first three months
             </p>

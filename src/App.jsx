@@ -10,14 +10,14 @@ import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
-    <div>
+    <div className="container-fluid">
       <Header />
       <HeroSection />
       <Companies />
       <ProductSection />
       <Shop />
-      {/* <Sales />
-      <ContactUs /> */}
+      <Sales />
+      {/* <ContactUs /> */}
     </div>
   );
 }

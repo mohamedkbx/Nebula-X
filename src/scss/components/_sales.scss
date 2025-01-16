@@ -1,5 +1,9 @@
 .sales {
   padding: 10rem 20rem;
+  overflow-x: hidden;
+  @include respond(tab-land){
+    padding: 10rem 3rem;
+  }
 }
 .sales__card {
   padding: 3rem;
@@ -16,6 +20,8 @@
   gap: 7rem;
 }
 
+
+
 .card-1 {
   position: relative;
 
@@ -29,6 +35,10 @@
     left: -10rem;
     border-radius: 50%;
     z-index: -1;
+    @include respond(tab-land){
+      top: -3rem;
+    left: 0rem;
+    }
   }
 }
 
@@ -41,6 +51,7 @@
   display: flex;
   justify-content: end;
   align-items: end;
+ 
 }
 .overlay-2 {
   position: absolute;
@@ -104,5 +115,10 @@
     span {
       color: #12f578;
     }
+  }
+}
+.sales__text{
+  @include respond(tab-land){
+    margin-top: 8rem;
   }
 }
